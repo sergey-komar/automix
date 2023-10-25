@@ -1,0 +1,96 @@
+.nav-icon{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: none;
+    z-index: 3;
+    border-radius: 50%;
+}
+.nav-icon__middle{
+    position: relative;
+    width: 30px;
+    height: 2px;
+    background-color: #000;
+}
+.nav-icon__middle::before,
+.nav-icon__middle::after{
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 2px;
+    background-color: #000;
+}
+.nav-icon__middle::before{
+    top: 7px;
+    transition: all .2s ease-in;
+}
+.nav-icon__middle::after{
+    bottom: 7px;
+    transition: all .2s ease-in;
+}
+.nav-icon.nav-icon--active .nav-icon__middle{
+    background-color: transparent;
+    transition: all .2s ease-in;
+}
+.nav-icon.nav-icon--active .nav-icon__middle::before{
+    transform: rotate(45deg);
+    top: 0;
+    transition: all .2s ease-in;
+    background-color: #fff;
+}
+.nav-icon.nav-icon--active .nav-icon__middle::after{
+    transform: rotate(-45deg);
+    bottom: 0;
+    transition: all .2s ease-in;
+    background-color: #fff;
+}
+
+
+@media(max-width: 900px){
+    .nav-icon{
+        position: relative;
+        display: block;
+        z-index: 3;
+    }
+
+
+    .aside{
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+      
+        justify-content: center;
+        align-items: center;
+        background: #212830;
+        left: 0;
+        top: 0;
+        color: #fff;
+        z-index: 2;
+        border-radius: 0px;
+        transform: translateX(-200%);
+        transition: all .5s ease-in;
+    }
+    .aside.nav--active{
+        transform: translateX(0%);
+        transition: all .5s ease-in;
+        margin-left: 0;
+    }
+    .aside__inner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding-left: 0;
+    }
+    .aside-block{
+        margin-bottom: 0;
+    }
+    .nav-icon.nav-icon--active{
+        position: fixed;
+    }
+    
+}

@@ -1,0 +1,283 @@
+.home-block {
+    margin-bottom: 2.4rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.home__cart{
+    width: 32%;
+}
+.home__item {
+    margin-top: 1rem;
+    height: 24rem;
+    padding: 2.4rem;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 20px 25px 0px rgba(76, 103, 100, 0.10);
+}
+.home__item-title {
+    font-size: 2.2rem;
+    color: #878787;
+}
+.slider__top {
+    display: flex;
+    justify-content: space-between;
+}
+.slider__top-price {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: #191919;
+}
+.slider__top-info {
+    margin-bottom: .5rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.slider__top-info span{
+    display: block;
+    color: #A32015;
+}
+.slider__item-img {
+}
+.slick-next,
+.slick-prev{
+    position: relative;
+    border: none;
+    background-color: transparent;
+}
+.slick-next{
+    margin-right: 1rem;
+}
+.slick-next::after{
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: url('../images/main/chevron-right.svg') no-repeat;
+    top: 4px;
+    right: -15px;
+}
+.slick-prev{
+    margin-left: 1rem;
+}
+.slick-prev::before{
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: url('../images/main/chevron-right\ \(2\).svg') no-repeat;
+    top: 4px;
+    left: -15px;
+}
+.slick-dots{
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.slick-dots li button{
+    font-size: 0;
+    padding: 0;
+    border: none;
+
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #D1D1D1;
+}
+li.slick-active button{
+    background: #A32015;
+}
+.home-slider__arrows{
+    display: flex;
+    justify-content: space-between;
+}
+.home__top {
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.home__top-title {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: #191919;
+}
+.home__top-info {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #525256;
+}
+.home__top-info span{
+    display: block;
+}
+.home__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.home__content-item {
+    position: relative;
+    margin-left: 2rem;
+    margin-bottom: 3rem;
+    font-size: 1.2rem;
+    color: #878787;
+}
+.home__content-item::before,
+.home__content-item--two::before{
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: -30px;
+}
+.home__content-item::before{
+    background: url('../images/main/Award.svg') no-repeat;
+}
+.home__content-item--two::before{
+    background: url('../images/main/octicon_goal-16.svg') no-repeat;
+}
+.home__content-item span{
+    font-size: 1.6rem;
+    color: #191919;
+    display: block;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.home__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.home__item-link {
+    display: block;
+    margin-right: 1.5rem;
+    position: relative;
+    font-size: 1.2rem;
+    color: #878787;
+}
+.home__item-link::after{
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: url('../images/main/chevron-right\ \(1\).svg') no-repeat;
+    top: 0;
+    right: -20px;
+}
+.home__wrapper {
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.home__wrapper-date {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.2rem;
+
+
+    border-radius: 8px;
+    background:  rgba(210, 210, 210, 0.25);
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #666;
+}
+.home__wrapper-date span{
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: #191919;
+}
+.home__info {
+    margin-left: 1rem;
+}
+.home__info-title {
+    margin-bottom: .5rem;
+    font-weight: 700;
+    color: #525256;
+}
+
+.home__info-text {
+    font-size: 1.2rem;
+    color: #9F9F9F;
+}
+.home__info-img {
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    padding: 1rem;
+
+    transform: translateY(10px);
+    border-radius: 8px;
+    border: 1px solid  #E8E8E8;
+    background: #FFF;
+}
+.home-box {
+    margin-top: 10rem;
+    display: flex;
+    gap: 2.4rem;
+}
+.home-box__wrapper {
+    width: 40rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.home-box__title {
+    font-size: 2.2rem;
+    color: #878787;
+}
+.home-box__link {
+    position: relative;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.home-box__link::after{
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: url('../images/main/chevron-right\ \(1\).svg') no-repeat;
+    top: 0;
+    right: -20px;
+}
+
+.home__right-box {
+    margin-bottom: 1rem;
+}
+.home__right-title {
+    margin-bottom: 1rem;
+    font-size: 2.2rem;
+    color: #878787;
+}
+.home__right-img {
+    padding: 1rem;
+    border-radius: 8px;
+    background:  #FFF;
+    box-shadow: 0px 20px 25px 0px rgba(76, 103, 100, 0.10);
+}
+.home__right-news {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.home__right-title{
+    font-size: 2.2rem;
+    color: #878787;
+}
+.home__right-link {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.home__right-block {
+    width: 100%;
+    height: 21rem;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 20px 25px 0px rgba(76, 103, 100, 0.10);
+}

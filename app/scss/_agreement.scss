@@ -1,0 +1,30 @@
+.agreement__title {
+    margin-bottom: 3.2rem;
+    font-size: 2.2rem;
+    color: #878787;
+    font-weight: 400;
+}
+.agreement__box {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem 3.7rem;
+    margin-bottom: 3.4rem;
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: 0px 26px 26px 0px rgba(106, 22, 58, 0.04);
+
+}
+.agreement__item {
+    width: 13rem;
+}
+.agreement__item-title {
+    margin-bottom: 2.1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.agreement__item-text {
+    font-size: 1.2rem;
+}
+.agreement__item-text--active {
+    color: #A32015;
+}

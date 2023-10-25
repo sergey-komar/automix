@@ -1,0 +1,64 @@
+.page-schedule{
+    padding-bottom: 6.8rem;
+}
+.schedule__inner{
+    display: flex;
+    gap: 1rem;
+}
+.schedule-block{
+    padding: 2.4rem;
+    padding-bottom: 14rem;
+    max-width: 110rem;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: 0px 26px 26px 0px rgba(106, 22, 58, 0.04);
+}
+.schedule-block__title {
+    margin-bottom: 2rem;
+}
+.schedule-block__box {
+    margin-bottom: 2rem;
+    display: flex;
+    gap: .5rem;
+}
+.schedule-block__box-title {
+    width: 14rem;
+    padding: 1.2rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    background: #F8F9FA;
+}
+.background{
+    padding: .8rem;
+    background: #F8F9FA;
+}
+.schedule-block__wrapper {
+   margin-bottom: 2rem;
+}
+.schedule-block__content {
+    display: flex;
+    gap: .5rem;
+}
+.schedule-block__content-title {
+    width: 14rem;
+    padding-left: .5rem;
+    font-size: 1.2rem;
+}
+.schedule-block__content-text {
+    width: 14rem;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+.schedule-block__sum {
+    display: flex;
+    align-items: center;
+}
+.schedule-block__sum-title {
+    width: 14rem;
+    font-weight: 500;
+}
+.schedule-block__sum-title--small{
+    font-size: 1.2rem;
+}
